@@ -1,10 +1,11 @@
-import ListMovies from "./components/ListMovies";
+import Router from "./components/Router";
+import 'antd/dist/antd.css';
 
 function App() {
 
   return (
     <>
-      <ListMovies />
+      <Router />
     </>
   );
 }
